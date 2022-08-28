@@ -1,0 +1,130 @@
+body {
+  background-color: #FEFBF6;
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+  color: #40514E;
+  padding: 0
+}
+
+h1 {
+  padding-bottom: 10px;
+  width: 25%;
+  color: #66BFBF;
+  margin: 70px auto 0 auto;
+  font-family: 'Sacramento', cursive;
+  font-size: 5em;
+  line-height: 2;
+}
+h2 {
+  margin: 0;
+  color: #66BFBF;
+  padding-bottom: 10px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: normal;
+}
+
+h3 {
+  color: #11999E;
+}
+
+span {
+  text-decoration: underline;
+}
+
+a {
+  color: #11999E;
+  text-decoration: none;
+  font-size: 20px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: normal;
+}
+
+a:hover {
+  color: #FEFBF6;
+  text-decoration: underline;
+}
+
+hr {
+  width: 15%;
+  margin: 140px auto 140px auto;
+  border-style: dotted;
+  border-width: 15px 0 0 0;
+  border-color: #EAF6F6;
+}
+.top-container {
+  background-color: #B7D3DF;
+  margin: 0;
+  padding-top: 70px;
+}
+
+.bottom-container {
+  background-color: #B7D3DF;
+  padding: 25px;
+  line-height: 2
+}
+
+.top-cloud {
+  position: absolute;
+  right: 270px;
+  width: 200px;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 300px;
+}
+
+.mountain {
+  width:50%;
+  position: relative;
+  left: 1%;
+}
+
+.programmer-img {
+  width: 30%;
+  float: left;
+  margin-right: 30px;
+  border-radius: 100%;
+}
+.teacher-img {
+  width: 30%;
+  float: right;
+  margin-left: 30px;
+  border-radius: 100%;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+  line-height: 2;
+}
+
+
+.btn {
+  background: #8ebfd4;
+  background-image: -webkit-linear-gradient(top, #8ebfd4, #229be6);
+  background-image: -moz-linear-gradient(top, #8ebfd4, #229be6);
+  background-image: -ms-linear-gradient(top, #8ebfd4, #229be6);
+  background-image: -o-linear-gradient(top, #8ebfd4, #229be6);
+  background-image: linear-gradient(to bottom, #8ebfd4, #229be6);
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  font-family: Georgia;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #3cb0fd;
+  background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+  text-decoration: none;
+}
