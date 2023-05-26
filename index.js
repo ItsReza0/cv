@@ -24,6 +24,8 @@ $('.btn').click(function (event) {
             alowClick = false;
             start_checker = true;
             counter = 0;
+            var aud = new Audo("sounds/wrong.mp3")
+            aud.play()
             $('body').addClass("game-over");
             setTimeout(() => {
                 $('body').removeClass('game-over')
